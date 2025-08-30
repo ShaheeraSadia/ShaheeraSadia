@@ -1,0 +1,50 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    /*transition: all;
+     transition-duration:3s ; 
+    transition-timing-function:(steps4) ; 
+    transition-delay: 2s;*/
+    /*transition: all 3s steps(4) 2s;*/
+     /* rotate: z 90deg ;
+    transform: scaley(0);
+    transform: scalex(1); */
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:infinite ;
+    animation-delay: 1s;
+    animation-direction:alternate ;
+}
+
+ @keyframes colorAnimate{
+        /*form*/0%{left: 0px; 
+          background-color:green;}
+50%{
+   background-color: red; 
+}
+
+        /*to*/100%{left: 100px;
+          background-color:pink;
+          color: white;
+        }
+
+    }
+    div:hover{
+ /*background-color: yellow;
+color: blue;
+font-size: 20px;
+transform: scale(3,1);
+/*transform: translate(70px,40px);*/
+ /*transform: skew(70deg);*/ 
+    }
+
+ div:active{
+    background-color: lightblue;
+
+}

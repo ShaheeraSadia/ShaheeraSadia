@@ -1,0 +1,25 @@
+   
+ 
+   div{
+    height: 100px;
+    width: 100px;
+    border:2px solid black ;
+    display:inline-block; 
+   } 
+   #Box1{
+      background-image:url("flower photo.jpg");  
+      
+      background-size: cover ;
+   }
+   #Box2{
+    background-image: url("cat photo.jpg");
+    background-size: contain;
+   }
+   body{
+      background-image:url("Wallpapers.jpg");  
+      
+      background-size:  cover;
+   }
+   #Box3{
+
+   }
